@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Mono:400,700");
+body {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: black;
+  color: rgb(221, 214, 214);
+  /* margin: 40px auto 40px auto;
+  width: 620px; */
+}
+
+h1 {
+  font-size: 30vmin;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+nav {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+nav a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+nav a.selected {
+  color: rgb(138, 240, 107);
+}
